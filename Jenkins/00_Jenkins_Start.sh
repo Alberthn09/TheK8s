@@ -79,13 +79,6 @@ docker push alberthn/streamlit-kubernetes
 #docker exec -it streamlit-kubernetes bin/bash
 
 
-aws sts get-caller-identity
-aws eks --region us-east-1 update-kubeconfig --name myekscluster
-kubectl config get-contexts
-kubectl config unset contexts.arn:aws:eks:us-east-1:667259643039:cluster/myekscluster
-
-https://webage-account10.signin.aws.amazon.com/console
-studentadmin
-667259643039
-anguyen
-un3KBb4*7_BvWL_EX
+#aws sts get-caller-identity
+#aws eks --region us-east-1 update-kubeconfig --name myekscluster
+#kubectl config get-contexts
